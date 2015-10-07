@@ -1,0 +1,80 @@
+body {
+	font-family: Arial, Georgia, sans-serif;	
+	background-image: url("Jinyoung_pic.jpg");
+	background-attachment: fixed;
+	background-position: top right;
+	background-repeat: no-repeat;
+	color: #8ED4E6;
+	background-color: #4051B5;
+}
+
+h2 {
+	font-size: 1.8em;
+	color: #91D8C2;
+}
+
+dl {
+	font-size: 75%;
+	color: #FDFD1B;
+}
+
+dt {
+	font-weight: bold;
+}
+
+p:first-letter {
+	font-weight: bold;
+	font-size: 150%;
+}
+
+del {
+	color: #FF3636;
+}
+
+ins {
+	color: #10FF10;
+	text-decoration: none;
+}
+
+h1 {
+	color: #91D8C2;
+	text-align: center;
+}
+
+strong {
+	text-shadow: -2px 2px #ACACAC;
+}
+
+table, td, th {
+	border: solid;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+th {
+	text-align: center;
+}
+
+ol {
+	list-style-type: lower-greek;
+}
+
+tr:last-child {
+	background-color: white;
+}
+
+ins:hover {
+	font-weight: bold;
+}
+
+img {
+	width: 300px;
+	height: 300px;
+}
+
+a img {
+	width: auto;
+	height: auto;
+}
