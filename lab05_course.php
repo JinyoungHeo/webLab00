@@ -47,7 +47,7 @@
         <h2>Searching Courses</h2>
 <!-- Ex. 3: Searching Courses & Ex 6: Query Parameters -->
         <?php
-            $startCharacter = "A";
+            $startCharacter = $_GET["character"];
             function getCoursesByCharacter($listOfCourses, $startCharacter){
                 $resultArray = array();
                 for ($i=0; $i < count($listOfCourses); $i++) { 
@@ -78,7 +78,7 @@
         <h2>List of Courses</h2>
 <!-- Ex. 4: List of Courses & Ex 6: Query Parameters -->
         <?php
-            $orderby = 0;
+            $orderby = $_GET["orderby"];
             function getCoursesByOrder($listOfCourses, $orderby){
                 $resultArray = $listOfCourses;
                 if ($orderby == 0) {
@@ -110,8 +110,8 @@
 <!-- Ex. 5: Adding Courses & Ex 6: Query Parameters -->
         <p>
         <?php 
-            $newCourse;
-            $codeOfCourse;
+            $newCourse = $_GET["new_course"];
+            $codeOfCourse = $_GET["code_of_course"];
             if (!isset($newCourse) || !isset($codeOfCourse)) { ?>
                 Input course or code of the course doesn't exist.
         <?php    
