@@ -1,0 +1,310 @@
+/*
+    2013043489 허진영
+*/
+
+#whole {
+    margin: 0 auto;
+    max-width: 1024px;
+    overflow: hidden;
+}
+#brand {
+    padding: 32px 20px 10px 20px;
+    overflow: hidden;
+}
+#brand img {
+    width: 300px;
+    height: 62px;
+}
+#brand div {
+    margin-top: 45px;
+    float: right;
+}
+#brand div a {
+    text-decoration: none;
+    text-indent: 10px;
+}
+#brand .fa-facebook {
+    color:#3b5998;
+}
+#brand .fa-twitter {
+    color:#55acee;
+}
+#brand .fa-google {
+    color : #dd4b39;
+}
+#brand .fa-pinterest {
+    color : #c8232c;
+}
+#brand .fa-instagram {
+    color :#3f729b;
+}
+#brand .fa-tumblr {
+    color : #34526f;
+}
+#search-wrap {
+    padding :0.5px 0px;
+    overflow: hidden;
+    float : none;
+    position: relative;
+}
+#search-wrap input{
+    border : none;
+    padding: 0.65em 0.75em;
+    font-size: 16px;
+    background-color: white;
+    width: 94%;
+    z-index: 1;
+}
+#search-wrap button {
+    border : none;
+    background-color: white;
+    top :3px;
+    right : 4px;
+    padding: 0.65em 0.75em;
+    position: absolute;
+    font-size: 13px;
+    z-index: 2;
+}
+#weekbar {
+    color: white;
+    background-color: black;
+    overflow: hidden;
+    text-align: center;
+}
+#weekbar > div div {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#weekbar > div i {
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    border-radius: 50%;
+    font-size: 1.25em;
+    float: left;
+}
+#weekbar .fa-facebook {
+    background-color: #3b5998;
+}
+#weekbar .fa-twitter {
+    background-color: #55acee;
+    margin-left: 0.25em;
+}
+#chart > div {
+    height: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #989898;
+    overflow: hidden;
+}
+#chart > div > div:first-child {
+    color: #989898;
+    padding: 1em;
+}
+#chart > div > div:nth-child(2) {
+    width: 45px;
+    font-size: 2em;
+    margin-top: 6px;
+    text-align: center;
+    float: left;
+}
+#chart > div > div:nth-child(3) {
+    float: left;
+    overflow: hidden;
+}
+#chart img {
+    width: 2.5em;
+    height: 2.5em;
+    margin: 6px;
+    float: left;
+}
+#chart p {
+    width: 192px;
+    margin: 0px;
+}
+#chart p span {
+    display: block;
+}
+#chart p span:first-child {
+    font-size: 1em;
+}
+#chart p span:last-child {
+    font-size: 12px;
+    color: #1cace2;
+}
+#chart > div > div:last-child {
+    border: 2px solid white;    
+    border-radius: 50%;
+    margin-top: 5px;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 15px;
+    text-align: center;
+    float: right;
+}
+
+.fa-star {
+    color: black;
+}
+.fa-arrow-up {
+    color: #05c648;
+}
+.fa-arrow-down {
+    color: #f93c33;
+}
+
+body {
+    font-family: Brown, verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    overflow: hidden;
+}
+header > div {
+    max-width: 1024px;
+    margin: auto;
+}
+header > div div:last-child {
+    color: #ff6567;
+    float: right;
+    padding-right: 0px;
+}
+header > div div:not(last-child) {
+    float: left;
+}
+header div div:hover {
+    color: #1cace2;
+    cursor: pointer;
+}
+header div div {
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-right: 30px;
+}
+h1 {
+    text-align: center;
+}
+nav {
+    overflow: hidden;
+}
+nav div {
+    float: left;
+    border: 1px solid #D9D9D8;
+}
+nav div:not(#search-wrap){
+    padding: 0.65em 0.72em;
+    border-right: 1px solid white;
+}
+nav div:not(#search-wrap):hover {
+    border: 1px solid black;
+    box-shadow: 0px 0px 0px 1px black inset;
+}
+aside {
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 300px;
+    float: right;
+}
+aside > div:first-child {
+    background-color: #484647;
+    padding: 0.75em;
+}
+article {
+    margin-top: 10px;
+    overflow: hidden;
+}
+article > div {
+    height: 104px;
+    border-top: 1px solid #CDCDCD;
+    border-bottom: 1px solid white;
+    overflow: hidden;
+}
+article > div:hover {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+article > div > div:first-child {
+    width: 34px;
+    line-height: 104px;
+    text-align: center;
+    color: #8c8e90;
+    background-color: rgb(231, 231, 231); 
+    float: left;
+}
+article > div > div:nth-child(2) {
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+}
+article span {
+    display: block;
+}
+article > div > div:nth-child(2) > span:first-child {
+    font-size: 62px;
+    text-align: center;
+}
+article > div > div:nth-child(2) > span:last-child {
+    font-size: 12.4px;
+    color: #989898;
+    line-height: 1px;
+}
+article > div > div:nth-child(3) {
+    float: left;
+    overflow: hidden;
+}
+article img {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-right: 12px;
+    width: 91px;
+    height: 91px;
+    float: left;
+}
+article p {
+    float: left;
+}
+article p span:first-child {
+    font-size: 24px;
+}
+article p span:last-child {
+    font-size: 16px;
+    color: #1cace2;
+}
+article > div > div:last-child {
+    border: 2px solid black;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 15px;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 15px;
+    margin-right: 10px;
+    float: right;
+}
+article > div > div:last-child:hover {
+    color: #1cace2;
+    border-color: #1cace2;
+    cursor: pointer;
+}
+p span:nth-child(2):hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+footer {
+    background-color: black;
+    overflow: hidden;
+}
+footer img {
+    float: right;
+}
