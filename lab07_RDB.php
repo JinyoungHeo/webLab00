@@ -21,7 +21,7 @@
 				<?php
 				if (!empty($rows)) {
 					foreach ($rows as $r) { ?>
-						<li><?= implode(" ", $r) ?></li>
+						<li><?= key($r) ?></li>
 				<?php	
 					}
 				} ?>
